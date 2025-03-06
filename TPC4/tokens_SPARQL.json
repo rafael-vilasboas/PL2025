@@ -1,0 +1,62 @@
+[
+    {
+        "id": "SELECT",
+        "expreg": "[sS][eE][lL][eE][cC][tT]"
+    },
+    {
+        "id": "WHERE",
+        "expreg": "[wW][hH][eE][rR][eE]"
+    },
+    {
+        "id": "LIMIT",
+        "expreg": "[lL][iI][mM][iI][tT]"
+    },
+    {
+        "id": "NUM",
+        "expreg": "\\d+"
+    },
+    {
+        "id": "PA",
+        "expreg": "{"
+    },
+    {
+        "id": "PF",
+        "expreg": "}"
+    },
+    {
+        "id": "ID",
+        "expreg": "\\?[a-z]\\w*"
+    },
+    {
+        "id": "PROPERTY",
+        "expreg": "\\w+:\\w+"
+    },
+    {
+        "id": "VALUE",
+        "expreg": "\\\".+\\\""
+    },
+    {
+        "id": "LANG",
+        "expreg": "@\\w+"
+    },
+    {
+        "id": "TYPE",
+        "expreg": "(a|rdf:type)"
+    },
+    {
+        "id": "POINT",
+        "expreg": "\\."
+    },
+    {
+        "id": "NEWLINE",
+        "expreg": "\\n"
+    },
+    {
+        "id": "SKIP",
+        "expreg": "[ \\t]+"
+    },
+    {
+        "id": "ERRO",
+        "expreg": "."
+    }
+]
